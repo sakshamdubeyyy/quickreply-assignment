@@ -11,3 +11,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.action{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: #47B647;
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  width: 120px;
+}
+
+/* Button.css */
+.button {
+  border: none;
+  border-radius: 12px;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.button-Default {
+  color: green;
+  background-color: transparent;
+}
+
+.button-Neutral {
+  color: black;
+  background-color: transparent;
+}
+
+.button-Reverse {
+  color: white;
+  background-color: black;
+}
+
+.button-Default:hover {
+  background-color: #EDFAED;
+}
+
+.button-Neutral:hover {
+  background-color: #F2F3F5;
+}
+
+.button-Reverse:hover {
+  background-color: #282829;
+}
+
+.button-Disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
